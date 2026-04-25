@@ -1,0 +1,43 @@
+PROJECT REQUIREMENTS
+
+1.  Libraries Used
+
+-   pandas: Data manipulation and preprocessing
+-   numpy: Numerical operations
+-   matplotlib, seaborn: Data visualization
+-   scikit-learn: Machine learning models and evaluation
+-   imblearn (SMOTE): Handling class imbalance
+-   scipy (winsorize): Outlier treatment
+-   wordcloud: Text visualization
+-   pickle: Model saving/loading
+
+2.  Machine Learning Models
+
+-   Logistic Regression
+-   Support Vector Machine (SVM)
+-   Decision Tree
+-   Random Forest
+-   Artificial Neural Network (MLP)
+
+3.  Techniques Used
+
+-   Exploratory Data Analysis (EDA)
+-   Outlier Handling (IQR/Winsorization)
+-   Feature Engineering (ExperienceRatio)
+-   Multicollinearity Handling
+-   Skewness Detection & Log Transformation
+-   OneHot Encoding
+-   Feature Scaling (StandardScaler)
+-   SMOTE for class imbalance
+-   Train-Test Split (Stratified)
+-   Pipeline implementation (to avoid data leakage)
+-   Hyperparameter tuning (GridSearchCV)
+-   Model evaluation (Accuracy, Precision, Recall, F1-score)
+
+4.  Tools & Environment
+
+-   Python (Jupyter Notebook / Anaconda)
+
+Summary: This project applies end-to-end machine learning techniques
+with proper preprocessing, pipeline design, and tuning to build a robust
+classification model.
